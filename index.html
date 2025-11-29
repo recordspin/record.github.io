@@ -2,49 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Record Spin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <div class="logo">
             <img src="record_spin_logo.png" alt="Record Spin Logo">
-            <h1>RECORD SPIN</h1>
-            <p>MUSIC REVIEWS</p>
         </div>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>Album reviews</li>
-                <li>Songs of the week</li>
-                <li>Your submissions</li>
-            </ul>
-        </nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="reviews.html">Album reviews</a></li>
+				<li><a href="songs.html">Songs of the week</a></li>
+				<li><a href="submissions.html">Your submissions</a></li>
+			</ul>
+		</nav>
     </header>
 
     <main>
-        <section class="album-of-the-week">
+        <section class="album-of-the-week glass-card">
             <h2>Album of the week</h2>
             <div class="album">
-                <img src="taylor_swift_album.jpg" alt="Taylor Swift - The Life of a Showgirl">
+                <img src="FKA-twigs-EUSEXUA-Afterglow.webp" alt="FKA-twigs">
                 <div class="album-info">
-                    <h3>Taylor Swift</h3>
-                    <p>The Life of a Showgirl</p>
-                    <p><em>Review text</em></p>
+                    <h3>FKA Twigs</h3>
+                    <p><strong>EUSEXUA Afterglow</strong></p>
+                    <p>
+                        <em>
+                        The chaotic EUSEXUA universe is expanding and contracting with a brand new 
+						album and a reimagined version of her album from earlier in the year. But 
+						twigs sounds like she’s having a blast, so let’s roll with it.
+                        </em>
+                    </p>
                 </div>
             </div>
         </section>
 
-        <aside class="other-albums">
+        <aside class="other-albums glass-card">
             <h2>Other albums</h2>
             <div class="other-album">
                 <img src="rosalia_album.jpg" alt="Rosalia - Lux">
-                <p>Rosalia<br>Lux</p>
+                <p><strong>Rosalia</strong><br>Lux</p>
             </div>
             <div class="other-album">
                 <img src="danny_brown_album.png" alt="Danny Brown - Stardust">
-                <p>Danny Brown<br>Stardust</p>
+                <p><strong>Danny Brown</strong><br>Stardust</p>
             </div>
         </aside>
     </main>
@@ -52,5 +59,6 @@
     <footer>
         <p>Email: record@spin.com. Copyright 2025.</p>
     </footer>
+
 </body>
 </html>
